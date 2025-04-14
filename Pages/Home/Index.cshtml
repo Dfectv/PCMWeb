@@ -1,0 +1,77 @@
+@page
+@{
+    ViewData["Title"] = "Home";
+    ViewData["DarkHeader"] = true;
+}
+<section class="hero-title-section">
+    <div class="title-content">
+        <h1>Players Club Management</h1>
+        <p>Achieve greatness on and off the field</p>
+    </div>
+    <div class="hero-images">
+        <img src="~/img/basketball_1.png" alt="Basketball 1" />
+        <img src="~/img/baseball_1.png"   alt="Baseball 1" />
+        <img src="~/img/basketball_2.png" alt="Basketball 2" />
+    </div>
+</section>
+
+<section class="unlock-section">
+    <div class="unlock-bg">
+        <h2>Unlock Your Full Potential</h2>
+        <p>
+            Whether you’re a student-athlete looking to maximize your brand or a business searching 
+            for top-tier athlete partnerships, we’re here to connect you to the right opportunities.
+        </p>
+        <a asp-page="/Services/Index" class="learn-more-btn">
+            Learn about our Athlete First Approach
+        </a>
+    </div>
+</section>
+
+<section class="featured-athletes">
+    <div class="featured-bg">
+        <h2>Featured Athletes</h2>
+        <p>
+            Meet some of the incredible athletes we work with and see how Players Club Management is making an impact 
+            in their careers.
+        </p>
+        <a asp-page="/Athletes/Index" class="meet-athletes-btn">
+            Meet Our Exceptional Athletes →
+        </a>
+    </div>
+</section>
+
+<section class="why-us">
+    <h2>Why Us?</h2>
+    <div class="why-us-cards">
+        <div class="why-card">
+            <p>
+                We focus on empowering student-athletes as micro-influencers and equipping them 
+                with financial literacy, brand-building strategies, and opportunities for long-term wealth creation.
+            </p>
+            <a asp-page="/Services/Index" class="why-card-btn">Learn more</a>
+        </div>
+        <div class="why-card">
+            <p>
+                PCM prioritizes high school and collegiate athletes who have valuable NIL (Name, 
+                Image, and Likeness) opportunities, even without professional contracts.
+            </p>
+            <a asp-page="/Services/Index" class="why-card-btn">Learn more</a>
+        </div>
+        <div class="why-card">
+            <p>
+                PCM believes in tech-forward solutions, exploring AI-driven content and leveraging 
+                digital marketing to maximize exposure.
+            </p>
+            <a asp-page="/Services/Index" class="why-card-btn">Learn more</a>
+        </div>
+    </div>
+</section>
+
+<section class="cta-section">
+    <h2>GET STARTED TODAY</h2>
+    <p>
+        Ready to take your NIL journey to the next level? Contact us today and let’s build your brand together! 
+        <a asp-page="/Contact_Us/Index" class="underline-link">Get in Touch</a>
+    </p>
+</section>

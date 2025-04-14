@@ -1,0 +1,31 @@
+@page
+@{
+    ViewData["Title"] = "Our Athletes";
+}
+<div class="banner">
+    <div class="rectangle"></div>
+    <div class="text-wrapper">Our Athletes</div>
+</div>
+
+<div class="banner-stack">
+    <div class="carousel-container">
+        <div class="carousel-item">
+            <img src="~/img/baseball-banner.png" alt="Baseball" />
+            <p class="carousel-caption">
+                <a asp-page="./Baseball/Index">Baseball</a>
+            </p>
+        </div>
+        <div class="carousel-item">
+            <img src="~/img/basketball-banner.png" alt="Basketball" />
+            <p class="carousel-caption">
+                <a asp-page="./Basketball/Index">Basketball</a>
+            </p>
+        </div>
+        <div class="carousel-item">
+            <img src="~/img/football-banner.png" alt="Football" />
+            <p class="carousel-caption">
+                <a asp-page="./Football/Index">Football</a>
+            </p>
+        </div>
+    </div>
+</div>

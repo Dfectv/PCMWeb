@@ -1,0 +1,62 @@
+@* Shared layout: head, header, footer *@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>@ViewData["Title"] - Players Club Management</title>
+    <link rel="stylesheet" href="~/css/globals.css" />
+    <link rel="stylesheet" href="~/css/style.css" />
+</head>
+<body>
+    <div class="page-container">
+        <!-- HEADER: you can add conditional dark-header logic via a ViewData flag if needed -->
+        <header class="banner @(ViewData["DarkHeader"] as bool? == true ? "dark-header" : "")">
+            <div class="banner-content">
+                <nav class="nav-links">
+                    <a asp-page="/About_Us/Index">About Us</a>
+                    <a asp-page="/Athletes/Index">Athletes</a>
+                    <img class="logo-image" src="~/img/image-1.png" alt="logo" />
+                    <a asp-page="/Services/Index">Services</a>
+                    <a asp-page="/Contact_Us/Index">Contact Us</a>
+                </nav>
+            </div>
+        </header>
+
+        <main role="main">
+            @RenderBody()
+        </main>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-top">
+            <nav class="footer-top-nav">
+                <a href="#">License</a> - 
+                <a href="#">Terms of Use</a> - 
+                <a href="#">Privacy Policy</a> - 
+                <a href="#">Cookie Policy</a>
+            </nav>
+        </div>
+        <div class="footer-main">
+            <div class="footer-brand">
+                <img src="~/img/footer-logo.png" alt="logo" class="footer-logo" />
+                <nav class="footer-nav-vertical">
+                    <a asp-page="/Home/Index">Home</a>
+                    <a asp-page="/Athletes/Index">Our Athletes</a>
+                    <a asp-page="/Services/Index">Our Services</a>
+                    <a asp-page="/Contact_Us/Index">Contact Us</a>
+                    <a asp-page="/About_Us/Index">About Us</a>
+                    <a href="#">Blog</a>
+                </nav>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2027 NIL Players Management Club</p>
+        </div>
+    </footer>
+
+    <script src="~/js/site.js"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
