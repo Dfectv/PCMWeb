@@ -16,7 +16,20 @@
                 <nav class="nav-links">
                     <a asp-page="/About_Us/Index">About Us</a>
                     <a asp-page="/Athletes/Index">Athletes</a>
-                    <img class="logo-image" src="~/img/image-1.png" alt="logo" />
+                    
+                    @{
+                        // read the same DarkHeader flag
+                        bool isDark = (ViewData["DarkHeader"] as bool?) == true;
+                        // choose the src and CSS class
+                        var logoSrc   = isDark 
+                                        ? Url.Content("~/img/home-header-logo.png") 
+                                        : Url.Content("~/img/image-1.png");
+                        var logoClass = isDark 
+                                        ? "footer-logo" 
+                                        : "logo-image";
+                    }
+                    <img class="@logoClass" src="@logoSrc" alt="logo" />
+
                     <a asp-page="/Services/Index">Services</a>
                     <a asp-page="/Contact_Us/Index">Contact Us</a>
                 </nav>

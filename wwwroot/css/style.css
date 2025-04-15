@@ -19,6 +19,7 @@
   position: relative;
   width: 100%;
   max-width: 1360px;
+  max-height: 210px;
   margin: 0 auto;
   background-color: #f9f6e9;
 }
@@ -56,6 +57,10 @@
 .banner-nav a {
   text-decoration: none;
   color: inherit;
+}
+.banner.dark-header .nav-links {
+  width: 100%;              
+  justify-content: space-evenly;  
 }
 
 /* DARK RECTANGLE & MAIN HEADING */
@@ -133,7 +138,15 @@
   text-align: center;
   margin-top: 5px;
 }
+.footer-brand {
+  display: flex;
+  align-items: flex-start;  
+  gap: 20px;               
+}
 
+.footer-nav-vertical {
+  margin-top: 0;            
+}
 /*========================================
   HOME PAGE
 ========================================*/
