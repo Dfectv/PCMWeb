@@ -706,14 +706,23 @@
   font-family: "DM Sans", sans-serif;
   text-shadow: none;
 }
-
-.mission-section,
+.mission-section{
+  margin-top:    140px;
+  margin-bottom: 40px;
+  margin-left:   auto;
+  margin-right:  auto;
+  width: 100%;
+  max-width: 1360px;
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 40px;
+}
 .story-section,
 .team-section,
 .faq-section {
   width: 100%;
   max-width: 1360px;
-  margin: 140px auto;
+  margin: 40px auto;
   background-color: #fff;
   border-radius: 15px;
   padding: 40px;
@@ -742,6 +751,24 @@
 }
 .faq-content a {
   text-decoration: underline;
+}
+.faq-content {
+  margin: 0;
+  padding: 0;
+}
+
+.faq-content dt {
+  font-weight: 700;
+  font-size: 1.2em;
+  color: #3d3534;
+  margin-top: 1.5em;
+}
+
+.faq-content dd {
+  margin: 0.5em 0 0;
+  padding-left: 1em;
+  line-height: 1.5;
+  color: #000;
 }
 .short-black-bar-section {
   display: flex;
