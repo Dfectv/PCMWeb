@@ -16,22 +16,22 @@
                 <nav class="nav-links">
                     <a asp-page="/About_Us/Index">About Us</a>
                     <a asp-page="/Athletes/Index">Athletes</a>
-                    
+
                     @{
-                        // read the same DarkHeader flag
                         bool isDark = (ViewData["DarkHeader"] as bool?) == true;
-                        // choose the src and CSS class
                         var logoSrc   = isDark 
                                         ? Url.Content("~/img/home-header-logo.png") 
                                         : Url.Content("~/img/image-1.png");
                         var logoClass = isDark 
                                         ? "footer-logo" 
                                         : "logo-image";
-                    }
-                    <img class="@logoClass" src="@logoSrc" alt="logo" />
+                }
+                <a asp-page="/Home/Index">
+                    <img class="@logoClass" src="@logoSrc" alt="Players Club Management logo" />
+                </a>
 
-                    <a asp-page="/Services/Index">Services</a>
-                    <a asp-page="/Contact_Us/Index">Contact Us</a>
+                <a asp-page="/Services/Index">Services</a>
+                <a asp-page="/Contact_Us/Index">Contact Us</a>
                 </nav>
             </div>
         </header>
@@ -53,7 +53,9 @@
         </div>
         <div class="footer-main">
             <div class="footer-brand">
-                <img src="~/img/footer-logo.png" alt="logo" class="footer-logo" />
+                <a asp-page="/Home/Index">
+                    <img class="logo-image" src="~/img/footer-logo.png" alt="Players Club Management logo" />
+                </a>
                 <nav class="footer-nav-vertical">
                     <a asp-page="/Home/Index">Home</a>
                     <a asp-page="/Athletes/Index">Our Athletes</a>
