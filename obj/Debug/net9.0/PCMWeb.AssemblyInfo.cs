@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PCMWeb")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1e9a9eedb71acb884cbab5021da6b4e2cb614482")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bef5abb5dee942749c1f670cc0531786e3f83b57")]
 [assembly: System.Reflection.AssemblyProductAttribute("PCMWeb")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PCMWeb")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

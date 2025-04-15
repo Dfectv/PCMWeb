@@ -11,7 +11,7 @@
   box-sizing: border-box;
 }
 
-/* RESET & FONT SMOOTHING (moved to globals.css) */
+/* RESET & FONT SMOOTHING */
 
 /* HEADER / BANNER */
 .banner,
@@ -93,7 +93,6 @@
   transform: none;
 }
 .banner:not(.dark-header) .text-wrapper {
-  /* rectangle starts at 300px, is 144px tall → center is 372px */
   top: 372px;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -702,8 +701,8 @@
 .carousel-caption {
   position: static;
   margin-top: 10px;
-  color: #000;             /* your desired color */
-  font-size: 18px;         /* match your existing About Us style */
+  color: #000;            
+  font-size: 18px;        
   font-family: "DM Sans", sans-serif;
   text-shadow: none;
 }
