@@ -2,30 +2,30 @@
 @{
     ViewData["Title"] = "Our Athletes";
 }
-<div class="banner">
-    <div class="rectangle"></div>
-    <div class="text-wrapper">Our Athletes</div>
+
+<!-- Page title bar -->
+<div class="page-title">
+    <h1>Our Athletes</h1>
 </div>
 
-<div class="banner-stack">
-    <div class="carousel-container">
-        <div class="carousel-item">
+<!-- Athletes list -->
+<div class="athletes-list">
+    <div class="athlete-item">
+        <a asp-page="./Baseball/Index">
             <img src="~/img/baseball-banner.png" alt="Baseball" />
-            <p class="carousel-caption">
-                <a asp-page="./Baseball/Index">Baseball</a>
-            </p>
-        </div>
-        <div class="carousel-item">
+            <span class="athlete-caption">Baseball</span>
+        </a>
+    </div>
+    <div class="athlete-item">
+        <a asp-page="./Basketball/Index">
             <img src="~/img/basketball-banner.png" alt="Basketball" />
-            <p class="carousel-caption">
-                <a asp-page="./Basketball/Index">Basketball</a>
-            </p>
-        </div>
-        <div class="carousel-item">
+            <span class="athlete-caption">Basketball</span>
+        </a>
+    </div>
+    <div class="athlete-item">
+        <a asp-page="./Football/Index">
             <img src="~/img/football-banner.png" alt="Football" />
-            <p class="carousel-caption">
-                <a asp-page="./Football/Index">Football</a>
-            </p>
-        </div>
+            <span class="athlete-caption">Football</span>
+        </a>
     </div>
 </div>

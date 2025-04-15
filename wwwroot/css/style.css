@@ -555,39 +555,64 @@
 }
 
 /*========================================
-  ATHLETES LISTING
+  ATHLETES PAGE
 ========================================*/
-.banner-stack {
-  width: 100%;
+
+/* Page title bar */
+.page-title {
+  background-color: #3d3534;
+  color: #f9f6e9;
+  text-align: center;
+  padding: 24px 0;
+  margin-top: 0;
+  border-radius: 30px;
   max-width: 1360px;
-  margin: 0 auto;
-  background-color: #f9f6e9;
 }
-.carousel-container {
-  display: block;
-  padding: 0;
+.page-title h1 {
   margin: 0;
+  font-family: "Lora", serif;
+  font-size: 48px;
+  font-weight: 700;
 }
-.carousel-item {
-  width: 100%;
-  margin-bottom: 40px;
+
+/* Vertical stack of athlete images */
+.athletes-list {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  max-width: 1360px;
+  margin: 40px auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+/* Each athlete card */
+.athlete-item a {
+  display: block;
   position: relative;
-}
-.carousel-item img {
-  width: 100%;
   border-radius: 15px;
-  object-fit: cover;
+  overflow: hidden;
 }
-.carousel-caption {
+
+/* Banner images */
+.athlete-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Overlay caption */
+.athlete-caption {
   position: absolute;
   top: 50%;
-  left: 60px;
+  left: 30px;
   transform: translateY(-50%);
   font-family: "Lora", serif;
+  font-size: 48px;
   font-weight: 700;
-  font-size: 64px;
   color: #f9f6e9;
-  text-shadow: 1px 1px 4px rgba(0,0,0,0.6);
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+  pointer-events: none; /* lets clicks pass through to the link */
 }
 
 /*========================================
@@ -706,23 +731,14 @@
   font-family: "DM Sans", sans-serif;
   text-shadow: none;
 }
-.mission-section{
-  margin-top:    140px;
-  margin-bottom: 40px;
-  margin-left:   auto;
-  margin-right:  auto;
-  width: 100%;
-  max-width: 1360px;
-  background-color: #fff;
-  border-radius: 15px;
-  padding: 40px;
-}
+
+.mission-section,
 .story-section,
 .team-section,
 .faq-section {
   width: 100%;
   max-width: 1360px;
-  margin: 40px auto;
+  margin: 140px auto;
   background-color: #fff;
   border-radius: 15px;
   padding: 40px;
@@ -751,24 +767,6 @@
 }
 .faq-content a {
   text-decoration: underline;
-}
-.faq-content {
-  margin: 0;
-  padding: 0;
-}
-
-.faq-content dt {
-  font-weight: 700;
-  font-size: 1.2em;
-  color: #3d3534;
-  margin-top: 1.5em;
-}
-
-.faq-content dd {
-  margin: 0.5em 0 0;
-  padding-left: 1em;
-  line-height: 1.5;
-  color: #000;
 }
 .short-black-bar-section {
   display: flex;
