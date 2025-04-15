@@ -700,11 +700,14 @@
   height: 200px;
 }
 .carousel-caption {
-  font-family: "DM Sans", sans-serif;
-  font-size: 18px;
-  color: #000;
+  position: static;
   margin-top: 10px;
+  color: #000;             /* your desired color */
+  font-size: 18px;         /* match your existing About Us style */
+  font-family: "DM Sans", sans-serif;
+  text-shadow: none;
 }
+
 .mission-section,
 .story-section,
 .team-section,
