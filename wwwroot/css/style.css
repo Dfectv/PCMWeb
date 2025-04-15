@@ -422,6 +422,7 @@
   display: grid;
   grid-template-columns: 630px 650px;
   gap: 40px;
+  justify-content: center;
   margin: 0 auto;
 }
 .service-card {
