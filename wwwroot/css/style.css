@@ -62,11 +62,15 @@
   width: 100%;              
   justify-content: space-evenly;  
 }
+.banner .nav-links{
+  width: 100%;
+  justify-content: space-evenly;
+}
 
 /* DARK RECTANGLE & MAIN HEADING */
 .rectangle {
   position: absolute;
-  top: 188px;
+  top: 300px;
   left: 0;
   width: 100%;
   max-width: 1360px;
@@ -87,6 +91,12 @@
   top: 214px;
   left: 94px;
   transform: none;
+}
+.banner:not(.dark-header) .text-wrapper {
+  /* rectangle starts at 300px, is 144px tall → center is 372px */
+  top: 372px;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .subtitle {
   display: block;
@@ -673,7 +683,7 @@
   justify-content: center;
   gap: 20px;
   overflow-x: auto;
-  padding: 0 10px;
+  padding: 50px 10px;
 }
 .carousel-container::-webkit-scrollbar {
   display: none;
@@ -701,7 +711,7 @@
 .faq-section {
   width: 100%;
   max-width: 1360px;
-  margin: 40px auto;
+  margin: 140px auto;
   background-color: #fff;
   border-radius: 15px;
   padding: 40px;
@@ -731,7 +741,10 @@
 .faq-content a {
   text-decoration: underline;
 }
-
+.short-black-bar-section {
+  display: flex;
+  justify-content: center;
+}
 /*========================================
   MODAL (shared on some pages)
 ========================================*/
@@ -788,4 +801,35 @@
 }
 .modal-content form button:hover {
   background-color: #5e5351;
+}
+/*========================================
+  ABOUT US “Connect With Us” CALL‑OUT
+========================================*/
+.about-cta {
+  background-color: #3d3534;
+  color: #f9f6e9;
+  border-radius: 15px;
+  padding: 40px 20px;
+  text-align: center;
+  margin: 40px auto;
+  max-width: 800px;
+}
+
+.about-description {
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.about-heading {
+  font-family: "Lora", serif;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+/* reuse your existing frame‑wrapper styles for the green 3D button */
+.inquiry-button {
+  display: inline-block;
+  text-decoration: none;
 }
