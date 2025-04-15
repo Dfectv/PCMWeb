@@ -2,18 +2,26 @@
 @{
     ViewData["Title"] = "Baseball";
 }
-<div class="banner-stack">
-    <div class="carousel-container">
-        <div class="carousel-item">
-            <img src="~/img/baseball-banner.png" alt="Baseball" />
-        </div>
-    </div>
+
+<!-- SPORT TITLE BAR -->
+<div class="sport-header">
+    Baseball
 </div>
 
+<!-- HERO IMAGE -->
+<div class="hero-image-container">
+    <img src="~/img/baseball-banner.png"
+         alt="Baseball banner"
+         class="sport-hero-img" />
+</div>
+
+<!-- ATHLETE PROFILES -->
 <div class="profiles-section">
-    <a asp-page="../Amos/Index" class="profile-card">
-        <img src="~/img/amos-bw.png" alt="Amos Aguilera" />
+    <a href="./amos" class="profile-card">
+        <img src="~/img/amos-bw.png"
+             alt="Amos Aguilera"
+             class="profile-image" />
         <div class="profile-name">Amos Aguilera</div>
     </a>
-    <!-- other profile-cards… -->
+    <!-- add more <a class="profile-card">…</a> here as needed -->
 </div>
