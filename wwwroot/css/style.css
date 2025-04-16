@@ -563,7 +563,36 @@
   transform: scale(0.95);
   box-shadow: 0 4px 8px rgba(0,0,0,0.3);
 }
-
+.contact-header {
+  background-color: #3d3534;      
+  color: #f9f6e9;                  
+  border-radius: 30px;
+  max-width: 1360px;
+  margin: 40px auto 0;             
+  padding: 40px 60px;            
+  box-sizing: border-box;
+}
+  
+.contact-header h1 {
+  margin: 0;
+  font-family: "Lora", serif;
+  font-size: 48px;
+  font-weight: 700;
+}
+  
+.contact-subtitle {
+  margin-top: 24px;
+  padding-left: 20px;              
+  border-left: 4px solid #f9f6e9; 
+}
+  
+.contact-subtitle p {
+  margin: 0 0 8px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 20px;
+  line-height: 1.4;
+}
+  
 /*========================================
   ATHLETES PAGE
 ========================================*/

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "257DvuY21p10tEdFPUgEf42TCpYJ0eI8AKZzqNS6NHg=",
+  "Hash": "xzUROxmVkJAompawmGswquglSCWJcqqeDKU23gNq5+8=",
   "Source": "PCMWeb",
   "BasePath": "_content/PCMWeb",
   "Mode": "Default",
@@ -1214,12 +1214,12 @@
       "OriginalItemSpec": "C:\\Users\\psilo\\source\\repo\\PCMWeb\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js"
     },
     {
-      "Identity": "C:\\Users\\psilo\\source\\repo\\PCMWeb\\obj\\Debug\\net9.0\\compressed\\sszlffqq42-46qdiegi74.gz",
+      "Identity": "C:\\Users\\psilo\\source\\repo\\PCMWeb\\obj\\Debug\\net9.0\\compressed\\sszlffqq42-n35nd43qcs.gz",
       "SourceId": "PCMWeb",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\psilo\\source\\repo\\PCMWeb\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/PCMWeb",
-      "RelativePath": "css/style#[.{fingerprint=46qdiegi74}]?.css.gz",
+      "RelativePath": "css/style#[.{fingerprint=n35nd43qcs}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -1228,8 +1228,8 @@
       "RelatedAsset": "C:\\Users\\psilo\\source\\repo\\PCMWeb\\wwwroot\\css\\style.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "1rwj20drxm",
-      "Integrity": "jf4+oGNw89EmF5WzHz6zUsY+txamEqkzv1mvOd/PmgI=",
+      "Fingerprint": "gtrw7uf2ko",
+      "Integrity": "1GNMQklA3Y5xLrqNlN/ZZO+eA6J1IF7nIwDdxYOcyQA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\psilo\\source\\repo\\PCMWeb\\wwwroot\\css\\style.css"
@@ -1501,8 +1501,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "46qdiegi74",
-      "Integrity": "RHAbssANcv+dEDJVuxoibRvfLE0AUkZYjQXxs+GzDfI=",
+      "Fingerprint": "n35nd43qcs",
+      "Integrity": "bRm8uchU3OGwaytdPYt05uyTuOhKJtVGcFKL/cdaWJY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\style.css"
@@ -3954,13 +3954,13 @@
       ]
     },
     {
-      "Route": "css/style.46qdiegi74.css",
-      "AssetFile": "C:\\Users\\psilo\\source\\repo\\PCMWeb\\obj\\Debug\\net9.0\\compressed\\sszlffqq42-46qdiegi74.gz",
+      "Route": "css/style.css",
+      "AssetFile": "C:\\Users\\psilo\\source\\repo\\PCMWeb\\obj\\Debug\\net9.0\\compressed\\sszlffqq42-n35nd43qcs.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000288517023"
+          "Quality": "0.000281610814"
         }
       ],
       "ResponseHeaders": [
@@ -3970,19 +3970,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3465"
+          "Value": "3550"
         },
         {
           "Name": "ETag",
-          "Value": "\"jf4+oGNw89EmF5WzHz6zUsY+txamEqkzv1mvOd/PmgI=\""
+          "Value": "\"1GNMQklA3Y5xLrqNlN/ZZO+eA6J1IF7nIwDdxYOcyQA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 18:52:09 GMT"
+          "Value": "Tue, 15 Apr 2025 23:58:35 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -3998,26 +3998,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"RHAbssANcv+dEDJVuxoibRvfLE0AUkZYjQXxs+GzDfI=\""
+          "Value": "W/\"bRm8uchU3OGwaytdPYt05uyTuOhKJtVGcFKL/cdaWJY=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "46qdiegi74"
-        },
-        {
-          "Name": "label",
-          "Value": "css/style.css"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-RHAbssANcv+dEDJVuxoibRvfLE0AUkZYjQXxs+GzDfI="
+          "Value": "sha256-bRm8uchU3OGwaytdPYt05uyTuOhKJtVGcFKL/cdaWJY="
         }
       ]
     },
     {
-      "Route": "css/style.46qdiegi74.css",
+      "Route": "css/style.css",
       "AssetFile": "C:\\Users\\psilo\\source\\repo\\PCMWeb\\wwwroot\\css\\style.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -4027,7 +4019,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "18390"
+          "Value": "19033"
         },
         {
           "Name": "Content-Type",
@@ -4035,11 +4027,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"RHAbssANcv+dEDJVuxoibRvfLE0AUkZYjQXxs+GzDfI=\""
+          "Value": "\"bRm8uchU3OGwaytdPYt05uyTuOhKJtVGcFKL/cdaWJY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 18:52:09 GMT"
+          "Value": "Tue, 15 Apr 2025 23:58:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bRm8uchU3OGwaytdPYt05uyTuOhKJtVGcFKL/cdaWJY="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.css.gz",
+      "AssetFile": "C:\\Users\\psilo\\source\\repo\\PCMWeb\\obj\\Debug\\net9.0\\compressed\\sszlffqq42-n35nd43qcs.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3550"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1GNMQklA3Y5xLrqNlN/ZZO+eA6J1IF7nIwDdxYOcyQA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 23:58:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1GNMQklA3Y5xLrqNlN/ZZO+eA6J1IF7nIwDdxYOcyQA="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.n35nd43qcs.css",
+      "AssetFile": "C:\\Users\\psilo\\source\\repo\\PCMWeb\\obj\\Debug\\net9.0\\compressed\\sszlffqq42-n35nd43qcs.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000281610814"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3550"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1GNMQklA3Y5xLrqNlN/ZZO+eA6J1IF7nIwDdxYOcyQA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 23:58:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"bRm8uchU3OGwaytdPYt05uyTuOhKJtVGcFKL/cdaWJY=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "n35nd43qcs"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bRm8uchU3OGwaytdPYt05uyTuOhKJtVGcFKL/cdaWJY="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.n35nd43qcs.css",
+      "AssetFile": "C:\\Users\\psilo\\source\\repo\\PCMWeb\\wwwroot\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19033"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bRm8uchU3OGwaytdPYt05uyTuOhKJtVGcFKL/cdaWJY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 23:58:35 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4049,7 +4186,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "46qdiegi74"
+          "Value": "n35nd43qcs"
         },
         {
           "Name": "label",
@@ -4057,13 +4194,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-RHAbssANcv+dEDJVuxoibRvfLE0AUkZYjQXxs+GzDfI="
+          "Value": "sha256-bRm8uchU3OGwaytdPYt05uyTuOhKJtVGcFKL/cdaWJY="
         }
       ]
     },
     {
-      "Route": "css/style.46qdiegi74.css.gz",
-      "AssetFile": "C:\\Users\\psilo\\source\\repo\\PCMWeb\\obj\\Debug\\net9.0\\compressed\\sszlffqq42-46qdiegi74.gz",
+      "Route": "css/style.n35nd43qcs.css.gz",
+      "AssetFile": "C:\\Users\\psilo\\source\\repo\\PCMWeb\\obj\\Debug\\net9.0\\compressed\\sszlffqq42-n35nd43qcs.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4072,7 +4209,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3465"
+          "Value": "3550"
         },
         {
           "Name": "Content-Type",
@@ -4080,11 +4217,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"jf4+oGNw89EmF5WzHz6zUsY+txamEqkzv1mvOd/PmgI=\""
+          "Value": "\"1GNMQklA3Y5xLrqNlN/ZZO+eA6J1IF7nIwDdxYOcyQA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 18:52:09 GMT"
+          "Value": "Tue, 15 Apr 2025 23:58:35 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4102,7 +4239,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "46qdiegi74"
+          "Value": "n35nd43qcs"
         },
         {
           "Name": "label",
@@ -4110,144 +4247,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-jf4+oGNw89EmF5WzHz6zUsY+txamEqkzv1mvOd/PmgI="
-        }
-      ]
-    },
-    {
-      "Route": "css/style.css",
-      "AssetFile": "C:\\Users\\psilo\\source\\repo\\PCMWeb\\obj\\Debug\\net9.0\\compressed\\sszlffqq42-46qdiegi74.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000288517023"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3465"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"jf4+oGNw89EmF5WzHz6zUsY+txamEqkzv1mvOd/PmgI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 18:52:09 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"RHAbssANcv+dEDJVuxoibRvfLE0AUkZYjQXxs+GzDfI=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-RHAbssANcv+dEDJVuxoibRvfLE0AUkZYjQXxs+GzDfI="
-        }
-      ]
-    },
-    {
-      "Route": "css/style.css",
-      "AssetFile": "C:\\Users\\psilo\\source\\repo\\PCMWeb\\wwwroot\\css\\style.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "18390"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"RHAbssANcv+dEDJVuxoibRvfLE0AUkZYjQXxs+GzDfI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 18:52:09 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-RHAbssANcv+dEDJVuxoibRvfLE0AUkZYjQXxs+GzDfI="
-        }
-      ]
-    },
-    {
-      "Route": "css/style.css.gz",
-      "AssetFile": "C:\\Users\\psilo\\source\\repo\\PCMWeb\\obj\\Debug\\net9.0\\compressed\\sszlffqq42-46qdiegi74.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3465"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"jf4+oGNw89EmF5WzHz6zUsY+txamEqkzv1mvOd/PmgI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 18:52:09 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-jf4+oGNw89EmF5WzHz6zUsY+txamEqkzv1mvOd/PmgI="
+          "Value": "sha256-1GNMQklA3Y5xLrqNlN/ZZO+eA6J1IF7nIwDdxYOcyQA="
         }
       ]
     },
