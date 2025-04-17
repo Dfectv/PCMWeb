@@ -219,9 +219,6 @@ C:\Users\psilo\source\repos\PCMWeb\obj\Debug\net9.0\scopedcss\bundle\PCMWeb.styl
 C:\Users\psilo\source\repos\PCMWeb\obj\Debug\net9.0\scopedcss\projectbundle\PCMWeb.bundle.scp.css
 C:\Users\psilo\source\repos\PCMWeb\obj\Debug\net9.0\compressed\nus4roey20-eyguvq9hey.gz
 C:\Users\psilo\source\repos\PCMWeb\obj\Debug\net9.0\compressed\8tltuyobyj-b9sayid5wm.gz
-C:\Users\psilo\source\repos\PCMWeb\obj\Debug\net9.0\compressed\sszlffqq42-bw4nbp9uhi.gz
-C:\Users\psilo\source\repos\PCMWeb\obj\Debug\net9.0\compressed\r7hl37tvaw-61n19gt1b8.gz
-C:\Users\psilo\source\repos\PCMWeb\obj\Debug\net9.0\compressed\jnh51vdbkb-zzfi1dy1m8.gz
 C:\Users\psilo\source\repos\PCMWeb\obj\Debug\net9.0\compressed\rbdabny64r-xtxxf3hu2r.gz
 C:\Users\psilo\source\repos\PCMWeb\obj\Debug\net9.0\compressed\2iy80ke0ma-t1cqhe9u97.gz
 C:\Users\psilo\source\repos\PCMWeb\obj\Debug\net9.0\compressed\ufslgktgvg-c2jlpeoesf.gz
@@ -298,3 +295,5 @@ C:\Users\psilo\source\repos\PCMWeb\obj\Debug\net9.0\refint\PCMWeb.dll
 C:\Users\psilo\source\repos\PCMWeb\obj\Debug\net9.0\PCMWeb.pdb
 C:\Users\psilo\source\repos\PCMWeb\obj\Debug\net9.0\PCMWeb.genruntimeconfig.cache
 C:\Users\psilo\source\repos\PCMWeb\obj\Debug\net9.0\ref\PCMWeb.dll
+C:\Users\psilo\source\repos\PCMWeb\obj\Debug\net9.0\compressed\r7hl37tvaw-zzfi1dy1m8.gz
+C:\Users\psilo\source\repos\PCMWeb\obj\Debug\net9.0\compressed\sszlffqq42-xdeg245xzd.gz

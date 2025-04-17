@@ -57,16 +57,16 @@
       "PackagePath": "staticwebassets\\img\\email.png"
     },
     {
-      "Id": "C:\\Users\\psilo\\source\\repos\\PCMWeb\\wwwroot\\img\\favicon.ico",
-      "PackagePath": "staticwebassets\\img\\favicon.ico"
-    },
-    {
       "Id": "C:\\Users\\psilo\\source\\repos\\PCMWeb\\wwwroot\\img\\featured.png",
       "PackagePath": "staticwebassets\\img\\featured.png"
     },
     {
       "Id": "C:\\Users\\psilo\\source\\repos\\PCMWeb\\wwwroot\\img\\football-banner.png",
       "PackagePath": "staticwebassets\\img\\football-banner.png"
+    },
+    {
+      "Id": "C:\\Users\\psilo\\source\\repos\\PCMWeb\\wwwroot\\img\\footer-insta.png",
+      "PackagePath": "staticwebassets\\img\\footer-insta.png"
     },
     {
       "Id": "C:\\Users\\psilo\\source\\repos\\PCMWeb\\wwwroot\\img\\footer-logo.png",

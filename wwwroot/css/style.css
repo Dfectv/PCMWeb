@@ -189,7 +189,10 @@
   object-fit: cover;
   border-radius: 15px;
 }
-
+.admin-login-container {
+  align-self: flex-end;
+  margin-top: 60px; /* Adjust this value as needed */
+}
 /*========================================
   UNLOCK & FEATURED ATHLETES (HOME)
 ========================================*/
@@ -417,6 +420,7 @@
   right: 60px;
   width: 400px;
   object-fit: cover;
+  border-radius: 30px;
 }
 .cards-container {
   display: grid;
