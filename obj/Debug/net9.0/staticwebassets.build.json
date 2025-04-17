@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rcsr2Iuli7qy+N9ny7V9PY8G6ed81eFjIu1nMwAM8SA=",
+  "Hash": "poyNlFrDaFzMNHdRdj6itSijKlMhVmmlcTx0okjq0TA=",
   "Source": "PCMWeb",
   "BasePath": "_content/PCMWeb",
   "Mode": "Default",
@@ -1879,8 +1879,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "whyvdv9r9o",
-      "Integrity": "nObw60QjVRKK6IalW278hC3h/ys386wzcEWkw2gtHIY=",
+      "Fingerprint": "7vawljq9tx",
+      "Integrity": "A0CECFy6QEUNoKjKE5xlpFirzJCYYau9DMlisDyNZy0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\image-2.png"
@@ -5862,6 +5862,51 @@
       ]
     },
     {
+      "Route": "img/image-2.7vawljq9tx.png",
+      "AssetFile": "C:\\Users\\psilo\\source\\repo\\PCMWeb\\wwwroot\\img\\image-2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "426880"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"A0CECFy6QEUNoKjKE5xlpFirzJCYYau9DMlisDyNZy0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 17:23:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7vawljq9tx"
+        },
+        {
+          "Name": "label",
+          "Value": "img/image-2.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-A0CECFy6QEUNoKjKE5xlpFirzJCYYau9DMlisDyNZy0="
+        }
+      ]
+    },
+    {
       "Route": "img/image-2.png",
       "AssetFile": "C:\\Users\\psilo\\source\\repo\\PCMWeb\\wwwroot\\img\\image-2.png",
       "Selectors": [],
@@ -5872,7 +5917,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "428534"
+          "Value": "426880"
         },
         {
           "Name": "Content-Type",
@@ -5880,11 +5925,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"nObw60QjVRKK6IalW278hC3h/ys386wzcEWkw2gtHIY=\""
+          "Value": "\"A0CECFy6QEUNoKjKE5xlpFirzJCYYau9DMlisDyNZy0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 00:47:08 GMT"
+          "Value": "Thu, 17 Apr 2025 17:23:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5894,52 +5939,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-nObw60QjVRKK6IalW278hC3h/ys386wzcEWkw2gtHIY="
-        }
-      ]
-    },
-    {
-      "Route": "img/image-2.whyvdv9r9o.png",
-      "AssetFile": "C:\\Users\\psilo\\source\\repo\\PCMWeb\\wwwroot\\img\\image-2.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "428534"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"nObw60QjVRKK6IalW278hC3h/ys386wzcEWkw2gtHIY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 00:47:08 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "whyvdv9r9o"
-        },
-        {
-          "Name": "label",
-          "Value": "img/image-2.png"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-nObw60QjVRKK6IalW278hC3h/ys386wzcEWkw2gtHIY="
+          "Value": "sha256-A0CECFy6QEUNoKjKE5xlpFirzJCYYau9DMlisDyNZy0="
         }
       ]
     },
