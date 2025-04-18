@@ -17,7 +17,6 @@
                 <nav class="nav-links">
                     <a asp-page="/About_Us/Index">About Us</a>
                     <a asp-page="/Athletes/Index">Athletes</a>
-
                     @{
                         bool isDark = (ViewData["DarkHeader"] as bool?) == true;
                         var logoSrc   = isDark 
@@ -30,13 +29,11 @@
                 <a asp-page="/Home/Index">
                     <img class="@logoClass" src="@logoSrc" alt="Players Club Management logo" />
                 </a>
-
                 <a asp-page="/Services/Index">Services</a>
                 <a asp-page="/Contact_Us/Index">Contact Us</a>
                 </nav>
             </div>
         </header>
-
         <main role="main">
             @RenderBody()
         </main>
@@ -65,6 +62,13 @@
                     <a asp-page="/About_Us/Index">About Us</a>
                     <a href="#">Blog</a>
                 </nav>
+            </div>
+            <!-- Instagram Icon -->
+            <div class="footer-social general-footer-social">
+                <a href="https://www.instagram.com/playersclubmgmt/" target="_blank" class="footer-social-link general-footer-social-link">
+                    <img src="../img/footer-insta.png" alt="Instagram" class="footer-insta general-footer-insta" />
+                    <span class="footer-social-text general-footer-social-text">Follow us on Instagram!</span>
+                </a>
             </div>
         </div>
         <div class="footer-bottom">

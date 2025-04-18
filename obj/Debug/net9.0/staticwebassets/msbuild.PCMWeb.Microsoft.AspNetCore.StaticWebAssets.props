@@ -48,8 +48,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>xdeg245xzd</Fingerprint>
-      <Integrity>K/FdHmVLfmLB6BvlL56h0Y2SZqc/xHOqEmK6FI6x0y0=</Integrity>
+      <Fingerprint>1gj9wrcau1</Fingerprint>
+      <Integrity>T4lQtPgKLZP0zb/nsIAkPJb9LqUmJywT/ph4c9eXqbw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\style.css'))</OriginalItemSpec>
@@ -282,8 +282,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>qqrcbhrxn3</Fingerprint>
-      <Integrity>ctYXXLPFWy15uTB4ZXM1kE6qmazoOdu+UEZx8VxduR0=</Integrity>
+      <Fingerprint>7r7973t94s</Fingerprint>
+      <Integrity>g/LCIvkQ6lo7xG6IpLUoef4G6c5jwF5JzxbMQxMZmnw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\footer-insta.png'))</OriginalItemSpec>

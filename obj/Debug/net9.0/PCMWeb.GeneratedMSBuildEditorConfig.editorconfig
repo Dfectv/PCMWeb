@@ -9,65 +9,65 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PCMWeb
 build_property.RootNamespace = PCMWeb
-build_property.ProjectDir = C:\Users\psilo\source\repos\PCMWeb\
+build_property.ProjectDir = C:\Users\psilo\source\repo\PCMWeb\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\psilo\source\repos\PCMWeb
+build_property.MSBuildProjectDirectory = C:\Users\psilo\source\repo\PCMWeb
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/psilo/source/repos/PCMWeb/Pages/About_Us/Index.cshtml]
+[C:/Users/psilo/source/repo/PCMWeb/Pages/About_Us/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJvdXRfVXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/psilo/source/repos/PCMWeb/Pages/Athletes/Amos/Index.cshtml]
+[C:/Users/psilo/source/repo/PCMWeb/Pages/Athletes/Amos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXRobGV0ZXNcQW1vc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/psilo/source/repos/PCMWeb/Pages/Athletes/Baseball/Index.cshtml]
+[C:/Users/psilo/source/repo/PCMWeb/Pages/Athletes/Baseball/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXRobGV0ZXNcQmFzZWJhbGxcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/psilo/source/repos/PCMWeb/Pages/Athletes/Basketball/Index.cshtml]
+[C:/Users/psilo/source/repo/PCMWeb/Pages/Athletes/Basketball/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXRobGV0ZXNcQmFza2V0YmFsbFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/psilo/source/repos/PCMWeb/Pages/Athletes/Football/Index.cshtml]
+[C:/Users/psilo/source/repo/PCMWeb/Pages/Athletes/Football/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXRobGV0ZXNcRm9vdGJhbGxcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/psilo/source/repos/PCMWeb/Pages/Athletes/Index.cshtml]
+[C:/Users/psilo/source/repo/PCMWeb/Pages/Athletes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXRobGV0ZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/psilo/source/repos/PCMWeb/Pages/Contact_Us/Index.cshtml]
+[C:/Users/psilo/source/repo/PCMWeb/Pages/Contact_Us/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGFjdF9Vc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/psilo/source/repos/PCMWeb/Pages/Home/Index.cshtml]
+[C:/Users/psilo/source/repo/PCMWeb/Pages/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/psilo/source/repos/PCMWeb/Pages/Services/Index.cshtml]
+[C:/Users/psilo/source/repo/PCMWeb/Pages/Services/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VydmljZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/psilo/source/repos/PCMWeb/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/psilo/source/repo/PCMWeb/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/psilo/source/repos/PCMWeb/Pages/_ViewImports.cshtml]
+[C:/Users/psilo/source/repo/PCMWeb/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/psilo/source/repos/PCMWeb/Pages/_ViewStart.cshtml]
+[C:/Users/psilo/source/repo/PCMWeb/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/psilo/source/repos/PCMWeb/Pages/Shared/_Layout.cshtml]
+[C:/Users/psilo/source/repo/PCMWeb/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-49yk8itv04

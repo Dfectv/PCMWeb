@@ -21,7 +21,6 @@
                 <nav class="nav-links">
                     <a asp-page="/About_Us/Index">About Us</a>
                     <a asp-page="/Athletes/Index">Athletes</a>
-
                     @{
                         bool isDark = (ViewData["DarkHeader"] as bool?) == true;
                         var logoSrc   = isDark 
@@ -34,12 +33,12 @@
                 <a asp-page="/Home/Index">
                     <img class="@logoClass" src="@logoSrc" alt="Players Club Management logo" />
                 </a>
-
                 <a asp-page="/Services/Index">Services</a>
                 <a asp-page="/Contact_Us/Index">Contact Us</a>
                 </nav>
             </div>
         </header>
+
         <!-- HERO & TITLE -->
         <section class="hero-title-section">
             <div class="title-content">
@@ -143,13 +142,18 @@
                         <a href="#">Blog</a>
                     </nav>
                 </div>
+                <!-- Instagram Icon -->
+                <div class="footer-social home-footer-social">
+                    <a href="https://www.instagram.com/playersclubmgmt/" target="_blank" class="footer-social-link home-footer-social-link">
+                        <img src="../img/footer-insta.png" alt="Instagram" class="footer-insta home-footer-insta" />
+                        <span class="footer-social-text home-footer-social-text">Follow us on Instagram!</span>
+                    </a>
+                </div>
                 <div class="admin-login-container">
                     <a href="#" id="admin-login-btn">Admin Login</a>
                 </div>
-            </div>
-            
+            </div>            
         </footer>
-
     </div> <!-- end page-container -->
 
     <!-- ADMIN LOGIN MODAL -->
